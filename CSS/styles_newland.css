@@ -10,12 +10,18 @@ ul {
   font-family: "Lucida Sans Unicode", "sans-serif";
   font-size: 20px;
 }
+li {
+  display: inline;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 a {
   color: white;
-  text-decoration: none;
+  text-decoration:inherit;
 }
 .title_banner {
   text-align: center;
+  background: rgba(44, 85, 162, 0.8);
   color: white;
   font-family: "Lucida Sans Unicode", "sans-serif";
   font-size: 30px;
