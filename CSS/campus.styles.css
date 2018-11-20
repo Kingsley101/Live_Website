@@ -22,3 +22,15 @@ a {
   font-family: "Lucida Sans Unicode", "sans-serif";
   font-size: 20px;
 }
+
+h1 {
+  font-family: "Lucida Sans Unicode";
+  font-size: 20px;
+  color: Black;
+}
+
+h2 {
+  font-family: "Lucida Sans Unicode";
+  font-size: 20px;
+  color: Black;
+}
