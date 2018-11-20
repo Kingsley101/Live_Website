@@ -1,6 +1,22 @@
-.title_banner
-{
-  background-color: #6495ED;
-  border-style: solid;
-  border-width: 3px;
+body {
+  background: url(https://www.visitengland.com/sites/default/files/styles/experience_page_consumer_gallery_image/public/hull_1.jpg?itok=AgGLoD0p.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ul {
+  text-align: center;
+  background: rgba(44, 85, 162, 0.8);
+  color: white;
+  font-family: "Lucida Sans Unicode", "sans-serif";
+  font-size: 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.title_banner {
+  text-align: center;
+  color: white;
+  font-family: "Lucida Sans Unicode", "sans-serif";
+  font-size: 30px;
 }
