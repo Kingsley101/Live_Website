@@ -1,9 +1,8 @@
-}
 ul {
   text-align: center;
   background: rgba(44, 85, 162, 0.8);
   color: white;
-  font-family: "Lucida Sans Unicode", "sans-serif";
+  font-family: "Corben";
   font-size: 20px;
 }
 li {
@@ -19,26 +18,26 @@ a {
   text-align: center;
   background: rgba(44, 85, 162, 0.8);
   color: white;
-  font-family: "Poppins";
+  font-family: "corben";
   font-size: 20px;
 }
 
 h1 {
-  font-family: "Poppins";
+  font-family: "Corben";
   font-size: 80px;
   color: Black;
   text-align: center;
 }
 
 h2 {
-  font-family: "Poppins";
+  font-family: "Corben";
   font-size: 20px;
   color: Black;
   text-align: center;
 }
 
 p {
-  font-family: "Poppins";
+  font-family: "Corben";
   font-size: 20px;
   color: Black;
   text-align: left;
