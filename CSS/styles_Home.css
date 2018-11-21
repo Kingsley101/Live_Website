@@ -19,7 +19,7 @@ a {
   text-align: center;
   background: rgba(44, 85, 162, 0.8);
   color: white;
-  font-family: "Lucida Sans Unicode", "sans-serif";
+  font-family: "Poppins";
   font-size: 20px;
 }
 
@@ -41,7 +41,7 @@ p {
   font-family: "Poppins";
   font-size: 20px;
   color: Black;
-  text-align: center;
+  text-align: left;
 }
 
 .center {
@@ -49,4 +49,27 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.gallery{
+  display: flex;
+  width: 1250px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+figure{
+  width: 265px;
+  margin: 8px 0;
+  border: 1px solid #777;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+figure img{
+  width: 100%;
+}
+figure figcaption{
+  text-align: center;
+  padding: 8px 4px
 }
