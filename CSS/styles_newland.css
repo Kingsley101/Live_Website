@@ -1,8 +1,19 @@
-.container1 {
+body {
+  background: url("../campus_background.jpg");
+}
+
+.title_section {
   background: url("../cropped_hull.png");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 500px;
+}
+.title_banner {
+  text-align: center;
+  background: rgba(44, 85, 162, 0.8);
+  color: white;
+  font-family: "Lucida Sans Unicode", "sans-serif";
+  font-size: 20px;
 }
 ul {
   text-align: center;
@@ -18,12 +29,17 @@ li {
 }
 a {
   color: white;
-  text-decoration:inherit;
+  text-decoration: inherit;
 }
-.title_banner {
-  text-align: center;
-  background: rgba(44, 85, 162, 0.8);
+.Roots_Description {
   color: white;
-  font-family: "Lucida Sans Unicode", "sans-serif";
+  margin-left: 100px;
+}
+#Roots {
+  border-radius: 25px;
+  float: right;
+}
+p {
   font-size: 20px;
+  font-family: "Lucida Sans Unicode", "sans-serif";
 }
