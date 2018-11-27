@@ -1,26 +1,97 @@
-body{
-  background image: url("campus_background.jpg");
-}
-ul {
+body {
+  background: white;
   text-align: center;
-  background: rgba(44, 85, 162, 0.8);
-  color: white;
-  font-family: "Lucida Sans Unicode", "sans-serif";
-  font-size: 20px;
-}
-li {
-  display: inline;
-  margin-left: 100px;
-  margin-right: 100px;
 }
 a {
+  color: #dc006c;
+}
+small {
+  color: #333;
+}
+.logo {
+  font: 84px 'Arial Narrow', sans-serif;
+  color: #fefefe;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+}
+.logo span {
+  position: relative;
+}
+.logo span:before,
+.logo span:after {
+  content: '';
+  position: absolute;
+  border-width: 32px;
+  border-style: solid;
+  border-color: transparent;
+  height: 0;
+  z-index: 10;
+}
+.logo .word1 {
+  color: black;
+  margin-right: -38px;
+  transform: rotateY(180deg);
+  display: inline-block;
+  z-index: 10;
+}
+.logo .word1:before {
+  right: -4px;
+  top: -9px;
+  border-top-color: white;
+  border-right-color: white;
+}
+.logo .word1:after {
+left: 17px;
+bottom: -15px;
+ border-bottom-color: white;
+ border-left-color: white;
+}
+.logo .word2 {
+  z-index: 0;
+  color:grey;
+}
+.logo .word2:before {
+left: -4px;
+top: -6px;
+border-top-color: white;
+border-left-color: white;
+}
+.logo .word2:after {
+right: -4px;
+bottom: 4px;
+border-bottom-color: white;
+border-right-color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+li a{
+  display: block;
   color: white;
-  text-decoration:inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a: hover{
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
 }
 .title_banner {
   text-align: center;
   background: rgba(44, 85, 162, 0.8);
-  color: white;
+  color: black;
   font-family: "Lucida Sans Unicode" "sans-serif";
   font-size: 20px;
 }
@@ -28,21 +99,21 @@ a {
 h1 {
   font-family: "Lucida Sans Unicode";
   font-size: 80px;
-  color: White;
+  color: black;
   text-align: center;
 }
 
 h2 {
   font-family: "Lucida Sans Unicode";
   font-size: 20px;
-  color: White;
+  color: black;
   text-align: center;
 }
 
 p {
   font-family: "Lucida Sans Unicode";
   font-size: 20px;
-  color: White;
+  color: black;
   text-align: left;
 }
 
