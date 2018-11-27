@@ -48,9 +48,82 @@ h2 {
     width: 50%;
 }
 
-p {
+.Student_Union
+  {
+    width:350px;
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.SU_Description {
   font-family: "Georgia";
-  font-size: 15px;
+  font-size: 13px;
   color: white;
   text-align: center;
 }
+
+.Canham_Turner
+  {
+    width:350px;
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.CT_Description {
+    font-family: "Georgia";
+    font-size: 13px;
+    color: white;
+    text-align: center;
+  }
+
+.Brynmor_Jones_Library
+  {
+    width:350px;
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.BJL_Description {
+    font-family: "Georgia";
+    font-size: 13px;
+    color: white;
+    text-align: center;
+  }
+
+.Middleton_Hall
+  {
+    width:350px;
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.MH_Description {
+    font-family: "Georgia";
+    font-size: 13px;
+    color: white;
+    text-align: center;
+  }
+
+.Wilberforce
+  {
+    width:350px;
+    height:250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.Wilb_Description {
+    font-family: "Georgia";
+    font-size: 13px;
+    color: white;
+    text-align: center;
+  }
