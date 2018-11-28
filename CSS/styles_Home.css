@@ -3,6 +3,10 @@ body {
   background: white;
   text-align: center;
 }
+body {
+  background: white;
+  text-align: center;
+}
 a {
   color: #dc006c;
 }
@@ -15,6 +19,7 @@ small {
   text-transform: uppercase;
   letter-spacing: -4px;
 }
+
 .logo span {
   position: relative;
 }
@@ -28,8 +33,9 @@ small {
   height: 0;
   z-index: 10;
 }
+
 .logo .word1 {
-  color: black;
+  color: grey;
   margin-right: -38px;
   transform: rotateY(180deg);
   display: inline-block;
@@ -42,51 +48,30 @@ small {
   border-right-color: white;
 }
 .logo .word1:after {
-left: 17px;
-bottom: -15px;
- border-bottom-color: white;
- border-left-color: white;
-}
-.logo .word2 {
-  z-index: 0;
-  color:grey;
-}
-.logo .word2:before {
-left: -4px;
-top: -6px;
-border-top-color: white;
-border-left-color: white;
-}
-.logo .word2:after {
-right: -4px;
-bottom: 4px;
-border-bottom-color: white;
-border-right-color: white;
+  left: 17px;
+  bottom: -15px;
+  border-bottom-color: white;
+  border-left-color: white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+.logo .word2 {
+  z-index: 0;
+  color: black;
 }
-li {
-  float: left;
-  border-right: 1px solid #bbb;
+.logo .word2:before {
+  left: -4px;
+  top: -6px;
+  border-top-color: white;
+  border-left-color: white;
 }
-li a{
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.logo .word2:after {
+  right: -4px;
+  bottom: 4px;
+  border-bottom-color: white;
+  border-right-color: white;
 }
-li a: hover{
-  background-color: #111;
-}
-.active {
-  background-color: #4CAF50;
+{
+  background-color: white;
 }
 }
 .title_banner {
@@ -96,7 +81,32 @@ li a: hover{
   font-family: "Times New Roman" "sans-serif";
   font-size: 20px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+li a:hover {
+    background-color: #111;
+}
 h1 {
   font-family: "Times New Roman";
   font-size: 80px;
@@ -117,17 +127,15 @@ p {
   color: black;
   text-align: left;
 }
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
 .gallery{
   display: flex;
-  width: 1250px;
+  width: 750px;
   margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;
