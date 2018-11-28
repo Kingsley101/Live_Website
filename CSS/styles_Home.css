@@ -1,61 +1,141 @@
-body{
-  background image: url("campus_background.jpg");
-}
-ul {
+@import url("campus.styles.css");
+body {
+  background: white;
   text-align: center;
-  background: rgba(44, 85, 162, 0.8);
-  color: white;
-  font-family: "Lucida Sans Unicode", "sans-serif";
-  font-size: 20px;
 }
-li {
-  display: inline;
-  margin-left: 100px;
-  margin-right: 100px;
+body {
+  background: white;
+  text-align: center;
 }
 a {
-  color: white;
-  text-decoration:inherit;
+  color: #dc006c;
+}
+small {
+  color: #333;
+}
+.logo {
+  font: 84px 'Arial Narrow', sans-serif;
+  color: #fefefe;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+}
+
+.logo span {
+  position: relative;
+}
+.logo span:before,
+.logo span:after {
+  content: '';
+  position: absolute;
+  border-width: 32px;
+  border-style: solid;
+  border-color: transparent;
+  height: 0;
+  z-index: 10;
+}
+
+.logo .word1 {
+  color: grey;
+  margin-right: -38px;
+  transform: rotateY(180deg);
+  display: inline-block;
+  z-index: 10;
+}
+.logo .word1:before {
+  right: -4px;
+  top: -9px;
+  border-top-color: white;
+  border-right-color: white;
+}
+.logo .word1:after {
+  left: 17px;
+  bottom: -15px;
+  border-bottom-color: white;
+  border-left-color: white;
+}
+
+.logo .word2 {
+  z-index: 0;
+  color: black;
+}
+.logo .word2:before {
+  left: -4px;
+  top: -6px;
+  border-top-color: white;
+  border-left-color: white;
+}
+.logo .word2:after {
+  right: -4px;
+  bottom: 4px;
+  border-bottom-color: white;
+  border-right-color: white;
+}
+{
+  background-color: white;
+}
 }
 .title_banner {
   text-align: center;
   background: rgba(44, 85, 162, 0.8);
-  color: white;
-  font-family: "Lucida Sans Unicode" "sans-serif";
+  color: black;
+  font-family: "Times New Roman" "sans-serif";
   font-size: 20px;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+li a:hover {
+    background-color: #111;
+}
 h1 {
-  font-family: "Lucida Sans Unicode";
+  font-family: "Times New Roman";
   font-size: 80px;
-  color: White;
+  color: black;
   text-align: center;
 }
 
 h2 {
-  font-family: "Lucida Sans Unicode";
+  font-family: "Times New Roman";
   font-size: 20px;
-  color: White;
+  color: black;
   text-align: center;
 }
 
 p {
-  font-family: "Lucida Sans Unicode";
+  font-family: "Times New Roman";
   font-size: 20px;
-  color: White;
+  color: black;
   text-align: left;
 }
-
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
 .gallery{
   display: flex;
-  width: 1250px;
+  width: 750px;
   margin: auto;
   justify-content: space-between;
   flex-wrap: wrap;

@@ -132,3 +132,28 @@ h2 {
     color: white;
     text-align: center;
   }
+
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+}
+
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+}
+
+#social-buttons button {
+  color: white;
+}
+
+.social-buttons {
+  position:absolute;
+  bottom:0px;
+  width: 100%;
+  margin: 0;
+  background-color: #000;
+  height: 100px;
+  text-align: center;
+  align: center;
+}
