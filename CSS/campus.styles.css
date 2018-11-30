@@ -1,44 +1,63 @@
 body {
-  background image: url("campus_background.jpg");
+  background image: url("campus_background_replace.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-}
-ul {
-  text-align: center;
-  background: rgba(44, 85, 162, 0.8);
-  color: white;
-  font-family: "Lucida Sans Unicode", "sans-serif";
-  font-size: 20px;
-}
-li {
-  display: inline;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-a {
-  color: white;
-  text-decoration:inherit;
-}
 .title_banner {
   text-align: center;
   background: rgba(44, 85, 162, 0.8);
-  color: white;
-  font-family: "Lucida Sans Unicode", "sans-serif";
+  color: black;
+  font-family: "Times New Roman" "sans-serif";
   font-size: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    border-right: 1px solid #bbb;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 h1 {
   font-family: "Lucida Sans Unicode";
-  font-size: 30px;
-  color: white;
+  font-size: 3em;
+  color: black;
   text-align: center;
+  text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
 }
 
 h2 {
   font-family: "Georgia";
   font-size: 20px;
-  color: white;
+  color: black;
   text-align: center;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+           0px 8px 13px rgba(0,0,0,0.1),
+           0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .center {
@@ -61,8 +80,10 @@ h2 {
 .SU_Description {
   font-family: "Georgia";
   font-size: 13px;
-  color: white;
+  color: black;
   text-align: center;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
 }
 
 .Canham_Turner
@@ -78,8 +99,10 @@ h2 {
 .CT_Description {
     font-family: "Georgia";
     font-size: 13px;
-    color: white;
+    color: black;
     text-align: center;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                   0px -5px 35px rgba(255,255,255,0.3);
   }
 
 .Brynmor_Jones_Library
@@ -95,8 +118,10 @@ h2 {
 .BJL_Description {
     font-family: "Georgia";
     font-size: 13px;
-    color: white;
+    color: black;
     text-align: center;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                   0px -5px 35px rgba(255,255,255,0.3);
   }
 
 .Middleton_Hall
@@ -112,8 +137,10 @@ h2 {
 .MH_Description {
     font-family: "Georgia";
     font-size: 13px;
-    color: white;
+    color: black;
     text-align: center;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                   0px -5px 35px rgba(255,255,255,0.3);
   }
 
 .Wilberforce
@@ -129,31 +156,8 @@ h2 {
 .Wilb_Description {
     font-family: "Georgia";
     font-size: 13px;
-    color: white;
+    color: black;
     text-align: center;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                   0px -5px 35px rgba(255,255,255,0.3);
   }
-
-.btn-twitter {
-  background: #00acee;
-  border-color: #009ad5;
-}
-
-.btn-facebook {
-  background: #4868ac;
-  border-color: #314776;
-}
-
-#social-buttons button {
-  color: white;
-}
-
-.social-buttons {
-  position:absolute;
-  bottom:0px;
-  width: 100%;
-  margin: 0;
-  background-color: #000;
-  height: 100px;
-  text-align: center;
-  align: center;
-}
