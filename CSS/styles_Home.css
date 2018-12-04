@@ -44,14 +44,14 @@ small {
 .logo .word1:before {
   right: -4px;
   top: -9px;
-  border-top-color: white;
-  border-right-color: white;
+  border-top-color: transparent;
+  border-right-color: transparent;
 }
 .logo .word1:after {
   left: 17px;
   bottom: -15px;
-  border-bottom-color: white;
-  border-left-color: white;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
 }
 
 .logo .word2 {
@@ -61,14 +61,14 @@ small {
 .logo .word2:before {
   left: -4px;
   top: -6px;
-  border-top-color: white;
-  border-left-color: white;
+  border-top-color: transparent;
+  border-left-color: transparent;
 }
 .logo .word2:after {
   right: -4px;
   bottom: 4px;
-  border-bottom-color: white;
-  border-right-color: white;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
 }
 {
   background-color: white;
@@ -81,6 +81,7 @@ small {
   font-family: "Times New Roman" "sans-serif";
   font-size: 20px;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -166,6 +167,7 @@ p {
             clear: both;
             position: relative;
 
+            animation-duration: automatic;
             -webkit-transition: left 2s;
             -moz-transition: left 2s;
             -o-transition: left 2s;
@@ -203,12 +205,14 @@ p {
 
         .slider-change
         {
+            animation: slide 8s infinite;
             display: inline-block;
             height: 10px;
             width: 10px;
             border-radius: 5px;
             background-color: white;
         }
+
 .container2 {
   float: center;
 }
